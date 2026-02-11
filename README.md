@@ -65,7 +65,7 @@ class Neuralnet(nn.Module):
 
 
 # Initialize the Model, Loss Function, and Optimizer
-def train_model(Aadithyan_brain=_brain,x_train,y_train,criterion,optimizer,epochs=2000):
+def train_model(Aishwariya_brain=_brain,x_train,y_train,criterion,optimizer,epochs=2000):
   for epoch in range(epochs):
     optimizer.zero_grad()
     loss=criterion(Aadithyan_brain(x_train),y_train)
@@ -87,9 +87,6 @@ def train_model(Aadithyan_brain=_brain,x_train,y_train,criterion,optimizer,epoch
 
 <img width="866" height="566" alt="Screenshot 2025-09-16 112358" src="https://github.com/user-attachments/assets/52a1e0bd-ca84-45f5-9108-feb11204164c" />
 
-### New Sample Data Prediction
-
-<img width="1188" height="151" alt="Screenshot 2025-09-16 112630" src="https://github.com/user-attachments/assets/e6af2356-a1aa-4aba-89fb-7a7f9f59450a" />
 
 ## RESULT
 The program to develop a neural network regression model for the given dataset has been executed successively
