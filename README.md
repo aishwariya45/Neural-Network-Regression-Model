@@ -10,8 +10,8 @@ It consists of an input layer with 1 neuron, two hidden layers with 4 neurons ea
 During training, the model adjusts its weights and biases using optimization techniques like RMSprop or Adam, minimizing a loss function such as Mean Squared Error for regression.The forward propagation process involves computing weighted sums, applying activation functions, and passing the transformed data through layer.
 
 ## Neural Network Model
+<img width="1060" height="758" alt="image" src="https://github.com/user-attachments/assets/4829d4a4-6e3e-4bb1-95ea-e8f972a2568a" />
 
-![image](https://github.com/user-attachments/assets/ee9acc10-42da-48f5-9a05-b860601c1f28)
 
 
 ## DESIGN STEPS
